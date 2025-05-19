@@ -1,2 +1,84 @@
-# Recommendation-project
-Thought of trying something out of ML and made this project
+![App Preview](screenshot.png)
+🎬 Movie Recommender System
+A content-based movie recommendation web app that suggests similar movies based on your favorite film. Powered by NLP and cosine similarity, this app is built using Streamlit and leverages TMDB API to fetch dynamic poster content. Built with simplicity, learning, and functionality in mind.
+
+🔍 Features
+✅ Select a movie and get 5 similar recommendations
+
+🖼️ Displays movie posters using the TMDB API
+
+⚡ Fast recommendations using precomputed similarity matrix
+
+💡 Clean and responsive UI built with Streamlit
+
+🔗 Deployed easily via ngrok or locally in a Colab/Cloud environment
+
+🛠️ Tech Stack
+Tool/Library	Purpose
+Python	Core programming language
+Pandas	Data preprocessing and manipulation
+Scikit-learn	Vectorization & similarity calculations
+Streamlit	Front-end web app framework
+Pickle	Model/data serialization
+TMDB API	Poster and metadata fetching
+Pyngrok	Exposing local server to public
+
+📚 What I Learned
+How to clean and preprocess data using Pandas
+
+Applied CountVectorizer to extract important features from text
+
+Built a content-based recommendation engine using cosine similarity
+
+Integrated external APIs (TMDB) to enhance visual appeal
+
+Deployed a working ML-powered web app using Streamlit
+
+Learned practical error handling and optimization techniques while deploying in Google Colab
+
+🚀 How to Run Locally
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/movie-recommender
+cd movie-recommender
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Start the app:
+
+bash
+Copy
+Edit
+streamlit run app.py
+(Optional) If using in Google Colab:
+
+python
+Copy
+Edit
+from pyngrok import ngrok
+url = ngrok.connect(8501)
+📂 Folder Structure
+bash
+Copy
+Edit
+├── app.py                     # Streamlit app code
+├── model/
+│   ├── movie_list.pkl         # Serialized movie metadata
+│   └── similarity.pkl         # Precomputed similarity matrix
+├── requirements.txt           # Project dependencies
+└── README.md                  # You're here!
+🌟 Demo
+📽️ Try the app, pick your favorite movie, and discover what to watch next!
+
+🙌 Acknowledgements
+TMDB API for movie data
+
+Streamlit for simplifying ML app deployment
+
+Scikit-learn for feature extraction & similarity
