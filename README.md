@@ -35,38 +35,13 @@ Integrated external APIs (TMDB) to enhance visual appeal
 Deployed a working ML-powered web app using Streamlit
 
 Learned practical error handling and optimization techniques while deploying in Google Colab
-
-🚀 How to Run Locally
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/movie-recommender
-cd movie-recommender
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
 Start the app:
 
-bash
-Copy
-Edit
 streamlit run app.py
 (Optional) If using in Google Colab:
-
-python
-Copy
-Edit
 from pyngrok import ngrok
 url = ngrok.connect(8501)
 📂 Folder Structure
-bash
-Copy
-Edit
 ├── app.py                     # Streamlit app code
 ├── model/
 │   ├── movie_list.pkl         # Serialized movie metadata
