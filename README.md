@@ -38,19 +38,6 @@ Learned practical error handling and optimization techniques while deploying in 
 Start the app:
 
 streamlit run app.py
-(Optional) If using in Google Colab:
-from pyngrok import ngrok
-url = ngrok.connect(8501)
-📂 Folder Structure
-├── app.py                     # Streamlit app code
-├── model/
-│   ├── movie_list.pkl         # Serialized movie metadata
-│   └── similarity.pkl         # Precomputed similarity matrix
-├── requirements.txt           # Project dependencies
-└── README.md                  # You're here!
-🌟 Demo
-📽️ Try the app, pick your favorite movie, and discover what to watch next!
-
 🙌 Acknowledgements
 TMDB API for movie data
 
